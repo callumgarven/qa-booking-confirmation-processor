@@ -131,7 +131,7 @@ const createICSFile = (bookingDetails, directory, busyStatus) => {
     return {
       start: [startDt.year, startDt.month, startDt.day, startDt.hour, startDt.minute],
       end: [endDt.year, endDt.month, endDt.day, endDt.hour, endDt.minute],
-      title: `${booking_name}`,
+      title: `${he.decode(booking_name)}`,
       description: `Booking Reference Number: ${booking_reference_number}`,
       status: 'CONFIRMED',
       busyStatus: busyStatus,
