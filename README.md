@@ -1,6 +1,10 @@
 # QA Booking Confirmation Processor
 Tool to convert QA Training Booking Confirmation emails into Calendar Invites/ICS files
 
+<p align="center">
+    <img src="https://i.imgur.com/pmdTecd.png" width="80%" height="auto" />
+</p>
+
 # Why does this exist?
 - QA Higher Education started utilising a new booking system for courses, but it does not provide an ability to provide calendar invites to the courses, this is a horrific admin task for each student who has to create these invites to stay on time for each course.
 - Emails are sent with Booking Confirmations, which details each date with start time for each of the attendances required throughout a course/module.
