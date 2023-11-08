@@ -173,8 +173,6 @@ const processFiles = async () => {
 
   const bookingDetailsArray = files.map(file => extractBookingDetails(file.content, file.name));
 
-  console.log(JSON.stringify(bookingDetailsArray))
-
   const {
     createICS
   } = await inquirer.prompt([{
