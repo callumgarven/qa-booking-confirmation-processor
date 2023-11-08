@@ -198,7 +198,6 @@ const processFiles = async () => {
     }
 
     bookingDetailsArray.forEach((bookingDetails) => {
-      console.log(bookingDetails)
       createICSFile(bookingDetails, icsDir, busyStatus);
     });
   } else {
