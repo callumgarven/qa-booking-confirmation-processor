@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "dependencies": {
+    "he": "^1.2.0",
+    "ics": "^3.5.0",
+    "inquirer": "^9.2.12",
+    "jsdom": "^22.1.0",
+    "luxon": "^3.4.3"
+  },
+  "name": "qa-booking-confirmation-processor",
+  "description": "Tool to convert QA Training Booking Confirmation emails into Calendar Invites/ICS files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callumgarven/qa-booking-confirmation-processor.git"
+  },
+  "author": "Callum Garven",
+  "license": "GNU Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/callumgarven/qa-booking-confirmation-processor/issues"
+  },
+  "homepage": "https://github.com/callumgarven/qa-booking-confirmation-processor#readme"
+}
